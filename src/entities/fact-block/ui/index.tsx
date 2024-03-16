@@ -6,7 +6,7 @@ const FactBlock = () => {
   const [fact, setFact] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const textareaRef = useRef(0);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
   const [cursorPosition, setCursorPosition] = useState(0);
 
   useEffect(() => {
