@@ -1,7 +1,7 @@
 # React + TypeScript + Vite
 
 To run:
-```js
+```cmd
 npm install
 npm run dev
 ```
